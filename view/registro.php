@@ -13,7 +13,7 @@
 		<H2>DATOS PERSONALES</H2>
 		<hr>
 		<div id="info"></div>
-		<form name="reg_usuarios" id="reg_usuarios" action="../controller/registrocontroller.php" method="POST" onsubmit="return validar()">
+		<form name="reg_usuarios" id="reg_usuarios" action="../controller/registrocontroller.php?action=guardar" method="POST" onsubmit="return validar()">
 		<div class="col-md-4 col-md-offset-1">
 			<label for='nom'>Nombre</label><br>
 			<input  type='text' id='nom' name='nom' class='form-control' value=""><br>

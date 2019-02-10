@@ -1,4 +1,5 @@
 <?php
+require_once("conexion.php");
 $nom=$_POST["nom"];
 $ape=$_POST["ape"];
 $gen=$_POST["gen"];
