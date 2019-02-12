@@ -1,5 +1,5 @@
 <?php
-require_once("validarusuario.php");
+require_once("../model/validarusuario.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

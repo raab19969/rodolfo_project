@@ -7,7 +7,7 @@
 <body>
 	<?php require_once("header.html");?>
 	<div class="log">
-		<form name="reg_usuarios" action="gestiontareas.php" method="POST">
+		<form name="login" action="../controller/logincontroller.php?action=gestiontareas" method="POST">
 				<div class="col-md-4 col-md-offset-4">
 					<label for='us'>Nombre de usuario</label><br>
 					<input required type='text' id='us' name='us' class='form-control' value=""><br>
